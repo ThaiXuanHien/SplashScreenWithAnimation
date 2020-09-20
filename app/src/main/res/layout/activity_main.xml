@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fece2f"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:transitionName="logo_image"
+        android:id="@+id/imageviewLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/car_icon">
+
+    </ImageView>
+
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/textviewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/bangers"
+        android:text="Hien TX"
+        android:transitionName="logo_text"
+        android:textAlignment="center"
+        android:textSize="100sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:transitionName="slogan"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/textviewSlogan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/birdsofparadise"
+            android:text="Nation wide Car rental app"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+</LinearLayout>
